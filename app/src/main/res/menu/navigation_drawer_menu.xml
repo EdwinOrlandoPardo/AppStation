@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_navigation_drawer_set_alarmas"
+            android:icon="@drawable/ic_alarm_black_36dp"
+            android:title="Set Alarmas" />
+        <item
+            android:id="@+id/item_navigation_drawer_set_estaciones"
+            android:icon="@drawable/ic_add_black_36dp"
+            android:title="Set Estaciones" />
+    </group>
+
+    <item android:title="Submenu">
+        <menu>
+            <item
+                android:id="@+id/item_navigation_drawer_perfil"
+                android:icon="@drawable/ic_account_circle_black_36dp"
+                android:title="Perfil" />
+            <item
+                android:id="@+id/item_navigation_drawer_Info"
+                android:icon="@drawable/ic_info_black_36dp"
+                android:title="Informacion" />
+        </menu>
+    </item>
+
+</menu>
+ 

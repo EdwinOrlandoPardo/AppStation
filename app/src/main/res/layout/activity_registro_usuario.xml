@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    tools:context="com.apps.project.appstation.LoginActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/toolbar"
+        />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_nombre"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/et_apellido"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="Apellido"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/et_telefono"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="Telefono"
+            android:inputType="phone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/et_direccion"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="Direccion"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/et_Correo"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/et_reContrasena"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textVisiblePassword"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/btn_registro"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="26dp"/>
+
+        <Button
+            android:id="@+id/btn_cancelar"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvAlarma"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Alarma 1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="28sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="35sp"
+            android:src="@drawable/termometro"/>
+        <TextView
+            android:id="@+id/tvTempeMin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="35"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="20sp"
+            android:src="@drawable/flechas"/>
+        <TextView
+            android:id="@+id/tvTempeMax"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="35"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="35sp"
+            android:src="@drawable/gota"/>
+        <TextView
+            android:id="@+id/tvHumeMim"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="35"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="20sp"
+            android:src="@drawable/flechas"/>
+        <TextView
+            android:id="@+id/tvHumeMax"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="35"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

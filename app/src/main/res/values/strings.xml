@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AppStation</string>
+    <string name="action_settings">Setings</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_settings">Actividad de Opciones</string>
+    <string name="title_activity_slide_menu">SlideMenu</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sttings">SttingsActivity</string>
+    <string name="title_activity_splahs">Clima Station</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_registro_usuario">RegistroUsuarioActivity</string>
+    <string name="title_activity_antenas">AntenasActivity</string>
+    <string name="title_activity_registrar_estacion">RegistrarEstacion</string>
+    <string name="title_activity_registro_alarmas">RegistroAlarmas</string>
+</resources>
